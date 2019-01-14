@@ -28,3 +28,5 @@ plt.ylabel('Value')
 plt.title('TimeSeries')
 plt.show()
 
+resultAb = AbnormalDetectionTools.patternDetectAbnormal(test, 9)
+print(resultAb)
